@@ -1,0 +1,7 @@
+{
+  "name": "gptTalk",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
