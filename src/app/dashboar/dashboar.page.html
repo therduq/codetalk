@@ -1,0 +1,57 @@
+
+<ion-content class="ion-padding">
+
+  <!--header-->
+  <div class="header-dash">
+    <p class="icon-btn" routerLink="/settings">
+      <i class="fa-solid fa-bars"></i>
+    </p>
+    <ion-avatar slot="end" style="margin-top: 10px;" routerLink="/profile">
+      <img src="../../assets/profileImg.jpg" alt="">
+    </ion-avatar>
+  </div>
+
+  <!--username-->
+  <ion-label class="welcome_text" color="blueaccent">
+    Welcome Back <br>Daniel V
+  </ion-label>
+
+  <!--OpenAi Options-->
+  <ion-grid>
+    <ion-row>
+      <ion-col size="6" class="ion-text-center menu-label">
+        <div class="btn-content box_shadow" routerLink="/chatgpt">
+          <br>
+          <h1 class="icon-menu"><i class="fa-regular fa-comments"></i></h1>
+          <p>ChatBot</p>
+        </div>
+        
+      </ion-col>
+
+      <ion-col size="6" class="ion-text-center menu-label">
+        <div class="btn-content box_shadow" routerLink="/imagegenerator">
+          <br>
+          <h1 class="icon-menu"><i class="fa-regular fa-images"></i></h1>  
+          <p>Image Generator</p>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <br><br>
+  <ion-item lines="none">
+    <ion-label>
+      <h1>ChatBot</h1>
+      <p>Generate a conversation with the openai AI</p>
+    </ion-label>
+  </ion-item>
+
+  <ion-item lines="none">
+    <ion-label>
+      <h1>Image Generator</h1>
+      <p>Generates an Image from a text that is sent to the OpenAi server</p>
+    </ion-label>
+  </ion-item>
+
+
+</ion-content>

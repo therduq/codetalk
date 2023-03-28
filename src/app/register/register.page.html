@@ -1,0 +1,40 @@
+
+<ion-content class="ion-padding">
+
+  <h1 class="ion-text-center welcome_text">
+    <i class="fa-brands fa-stack-exchange" style="color: #3f37c9;"></i>
+  </h1>
+  <ion-list>
+    <ion-list-header>
+      <ion-label class="welcome_text" color="blueaccent">
+        Welcome Back <br>To GptTalk
+      </ion-label>
+    </ion-list-header>
+    <br>
+    <!--inputs-->
+    <ion-label class="secondary-label">Email</ion-label>
+    <ion-item lines="none">
+      <i class="fa-solid fa-envelope" slot="start"></i>
+      <ion-input placeholder="user@email.com"></ion-input>
+    </ion-item>
+
+    <br>
+
+    <ion-label class="secondary-label">Password</ion-label>
+    <ion-item lines="none">
+      <i class="fa-solid fa-lock" slot="start"></i>
+      <ion-input placeholder="* * * * * *" type="password"></ion-input>
+    </ion-item>
+
+    <ion-label class="secondary-label">Confirm Password</ion-label>
+    <ion-item lines="none">
+      <i class="fa-solid fa-lock" slot="start"></i>
+      <ion-input placeholder="* * * * * *" type="password"></ion-input>
+    </ion-item>
+
+    <br>
+    <ion-button expand="block" color="blueaccent" routerLink="/login">Register</ion-button>
+  </ion-list>
+  <br>
+  <p class="ion-text-center" routerLink="/login">are you registered? <strong color="blueaccent">Log in</strong></p>
+</ion-content>

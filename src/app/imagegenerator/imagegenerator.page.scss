@@ -1,0 +1,34 @@
+.btn-send{
+    font-size: 32px;
+    margin-left: 10px;
+    color: #212529;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.input-container{
+    min-width: 95%;
+    height: 60px;
+    position: fixed;
+    bottom: 10px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid #212529;
+    padding: 10px auto;
+
+}
+
+.image_container{
+    width: 100%;
+    height: 340px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #3f37c9;
+    
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px 10px 10px 10px;
+        
+    }
+}

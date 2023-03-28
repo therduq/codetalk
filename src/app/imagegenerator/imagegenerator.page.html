@@ -1,0 +1,27 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="blueaccent">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title><h1>Image Generator</h1></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <ion-spinner name="circles" color="blueaccent" *ngIf="hidden"></ion-spinner>
+  <div class="image_container">
+    <img src="{{imageData}}" alt="" class="box_shadow">
+  </div>
+
+  <div class="input-container box_shadow">
+    <ion-item lines="none">   
+      <ion-textarea color="blueaccent" 
+        placeholder="...Write image Description" 
+        [(ngModel)]="imageGen">
+      </ion-textarea>
+    </ion-item>
+    <i class="fa-solid fa-paper-plane btn-send" slot="end" (click)="getImage()"></i>
+  </div>
+
+</ion-content>

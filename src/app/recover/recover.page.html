@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar color="blueaccent">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
+    <ion-title>Recover</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-label class="welcome_text" color="blueaccent">
+    Welcome Back <br>To GptTalk
+  </ion-label>
+  <br>
+  <p class="ion-text-center">
+    Have you forgotten your password? 
+    <br>Write your email account to send you the steps to recover it.
+  </p>
+
+  <ion-label class="secondary-label">Email</ion-label>
+    <ion-item lines="none">
+      <i class="fa-solid fa-envelope" slot="start"></i>
+      <ion-input placeholder="user@email.com"></ion-input>
+    </ion-item>
+
+  <ion-button color="blueaccent" expand="block" routerLink="/login">Send</ion-button>
+</ion-content>

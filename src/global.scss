@@ -24,3 +24,58 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@100;200;300;400;500;700;900&display=swap');
+
+*{
+    font-family: 'Overpass', sans-serif;
+}
+
+.welcome_text{
+    font-weight: 900;
+    font-size: 40px;
+    text-align: left;
+    color: #3f37c9;
+}
+
+.secondary-label{
+    font-weight: 500;
+    font-size: 30px;
+    margin-left: 18px;
+}
+
+.icon-btn{
+    font-size: 32px;
+    margin-top: 20px;
+    color: #3f37c9;
+}
+
+.header-dash{
+    display: flex;
+    margin: 2px auto;
+    justify-content:space-between;
+    margin: auto;
+}
+
+.menu-label{
+    font-size: 16px;
+    font-weight: 300;
+    color: #3f37c9;
+}
+
+.icon-menu{
+    font-size: 56px;
+    font-weight: 300;
+    color: #212529;
+}
+
+.btn-content{
+    width: 90%;
+    height: 160px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.box_shadow{
+    /*box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;*/
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+}

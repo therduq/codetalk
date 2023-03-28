@@ -1,20 +1,42 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+<ion-content [fullscreen]="true" class="ion-padding">
+  
+  <ion-slides [options]="{ slidesPerView: true, loop: true }">
+    <ion-slide>
+      <div class="slides_container ion-padding">
+        <h1 class="ion-text-center welcome_text">
+          <i class="fa-brands fa-stack-exchange" style="color: #3f37c9;"></i>
+        </h1>
+        <h1 class="welcome_text" style="margin-top: 50px;">Welcome <br>To GptTalk</h1>
+        <p class="text-intro">The Application that allows you to have conversations with the AI ​​of OpenAi, to help you.</p>
+        <p class="next-text">slide to Next <i class="fa-solid fa-angles-right" style="color: #3f37c9;"></i></p>
+      
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="slides_container ion-padding">
+        <h1 class="ion-text-center welcome_text">
+          <i class="fa-brands fa-stack-exchange" style="color: #3f37c9;"></i>
+        </h1>
+        <h1 class="welcome_text" style="margin-top: 50px;">GptTalk</h1>
+        <p class="text-intro">You can create an image from a text that you enter.</p>
+        <p class="next-text">slide to Next <i class="fa-solid fa-angles-right" style="color: #3f37c9;"></i></p>
+      </div>
+    </ion-slide>
+    <ion-slide>
+      <div class="slides_container ion-padding">
+        <h1 class="ion-text-center welcome_text">
+          <i class="fa-brands fa-stack-exchange" style="color: #3f37c9;"></i>
+        </h1>
+        <h1 class="welcome_text" style="margin-top: 50px;">GptTalk</h1>
+        <p class="text-intro">You can make the generated text be expressed by voice command...
+          try it right now!</p>
+        <div style="height: 150px;"></div>
+        <ion-button color="blueaccent" expand="block" routerLink="/register">Get Started</ion-button>
+      
+      </div>
+     
+      
+    </ion-slide>
+  </ion-slides>
 </ion-content>
